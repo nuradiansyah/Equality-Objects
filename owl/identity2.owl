@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#SecTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#SecTeam">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#jim"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#VerTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#VerTeam">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#pattie"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#jim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#jim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#logic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#logic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#pattie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#pattie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#privacy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#privacy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#x -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#x">
+        <rdf:type rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#logic"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#privacy"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#logic"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#VerTeam"/>
+    </owl:Restriction>
+    <owl:Restriction>
+        <owl:onProperty rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert"/>
+        <owl:someValuesFrom>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#privacy"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:someValuesFrom>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#SecTeam"/>
+    </owl:Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

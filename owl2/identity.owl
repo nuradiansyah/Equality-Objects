@@ -1,0 +1,77 @@
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6>
+
+
+ObjectProperty: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert>
+
+    
+Class: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female>
+
+    DisjointWith: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male>
+    
+    
+Class: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male>
+
+    DisjointWith: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female>
+    
+    
+Class: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#SecTeam>
+
+    EquivalentTo: 
+        {<http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#jim> , <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john> , <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda>}
+    
+    
+Class: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#VerTeam>
+
+    EquivalentTo: 
+        {<http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john> , <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda> , <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#pattie>}
+    
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#jim>
+
+    Types: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male>
+    
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#john>
+
+    Types: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Male>
+    
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#linda>
+
+    Types: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female>
+    
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#logic>
+
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#pattie>
+
+    Types: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female>
+    
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#privacy>
+
+    
+Individual: <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#x>
+
+    Types: 
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#Female>,
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert> value <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#logic>,
+        <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#expert> value <http://www.semanticweb.org/nuradiansyah/ontologies/2017/1/untitled-ontology-6#privacy>
+    
+    
